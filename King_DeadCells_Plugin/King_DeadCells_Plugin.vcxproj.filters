@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{513a2e5d-b755-4625-b5f3-6c4fac95fa04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Hook">
+      <UniqueIdentifier>{d667b52c-3b57-44f5-8854-5aef129b4e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Commander">
+      <UniqueIdentifier>{6f0ce33e-fead-44eb-af67-81118d9012d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\EventHandler">
+      <UniqueIdentifier>{cb5a9ae4-c925-453a-b1a5-c6bd66026d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Common">
+      <UniqueIdentifier>{b1637b38-6382-4785-af88-27a672374762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Security">
+      <UniqueIdentifier>{ec3538e0-2fe6-4644-aa0e-1399db898b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Security\Crypto">
+      <UniqueIdentifier>{443666fd-662e-485d-a241-d94c69c9477e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Security\Dump">
+      <UniqueIdentifier>{dc97768b-b862-4898-b2ad-c41e3781d8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{765087b1-3df9-4bb5-824e-61c05c8de8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addresses">
+      <UniqueIdentifier>{22fb1b4e-2084-4eec-a738-117b0b484746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\Globals">
+      <UniqueIdentifier>{0f9a8a4f-a27f-42f4-b2e7-e63284c4841d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Addresses\1.22.2">
+      <UniqueIdentifier>{89b7781d-b47c-4af6-8555-a73a9403b6a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="King.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Framework\Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="Commander.cpp">
+      <Filter>Framework\Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto.cpp">
+      <Filter>Framework\Security\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Addresses.cpp">
+      <Filter>Addresses</Filter>
+    </ClCompile>
+    <ClCompile Include="Dump.cpp">
+      <Filter>Framework\Security\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Structures\Globals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.hpp">
+      <Filter>Framework\Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="Commander.hpp">
+      <Filter>Framework\Commander</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.hpp">
+      <Filter>Framework\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="EventType.hpp">
+      <Filter>Framework\EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.hpp">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDefines.hpp">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RawCommon.hpp">
+      <Filter>Framework\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto.hpp">
+      <Filter>Framework\Security\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Addresses.hpp">
+      <Filter>Addresses</Filter>
+    </ClInclude>
+    <ClInclude Include="Dump.hpp">
+      <Filter>Framework\Security\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Structures\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Addresses_1.22.2.hpp">
+      <Filter>Addresses\1.22.2</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures_1.22.2.hpp">
+      <Filter>Addresses\1.22.2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
