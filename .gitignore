@@ -36,3 +36,5 @@ Build
 
 !ThirdParty/libs/Debug/*
 !ThirdParty/libs/Release/*
+
+!ds.rcnet

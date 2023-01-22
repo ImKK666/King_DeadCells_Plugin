@@ -9,6 +9,10 @@ enum class Globals : unsigned {
     hl_bytes_compare16 = 0x175E0,
 };
 
+enum class ObjectManager : unsigned {
+    ObjectManager_Instance = 0x48184,
+};
+
 }   // namespace Addresses
 }   // namespace Native
 }   // namespace King

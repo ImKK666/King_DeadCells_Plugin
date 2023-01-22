@@ -5,7 +5,14 @@ namespace Native {
 namespace ObjectAddresses {
 //--------------------------------------------//
 enum class ObjectManager : unsigned {   // new
-    ObjectArray = 0x14,
+    Size        = 0x4,
+    ObjectArray = Size + 0x4,
+
+    ArrayStart  = 0x10,
+};
+
+enum class Object : unsigned {   // new
+    t = 0x0,
 };
 
 };   // namespace ObjectAddresses

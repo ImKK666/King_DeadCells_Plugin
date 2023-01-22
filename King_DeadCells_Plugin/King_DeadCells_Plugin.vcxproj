@@ -100,6 +100,8 @@
     <ClCompile Include="Commander.cpp" />
     <ClCompile Include="Crypto.cpp" />
     <ClCompile Include="Dump.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
     <ClCompile Include="Globals.cpp" />
     <ClCompile Include="Hook.cpp" />
     <ClCompile Include="King.cpp" />
@@ -113,9 +115,12 @@
     <ClInclude Include="CommonDefines.hpp" />
     <ClInclude Include="Crypto.hpp" />
     <ClInclude Include="Dump.hpp" />
+    <ClInclude Include="Object.hpp" />
+    <ClInclude Include="ObjectManager.hpp" />
     <ClInclude Include="EventHandler.hpp" />
     <ClInclude Include="EventType.hpp" />
     <ClInclude Include="Globals.hpp" />
+    <ClInclude Include="hl.h" />
     <ClInclude Include="Hook.hpp" />
     <ClInclude Include="RawCommon.hpp" />
     <ClInclude Include="stdafx.h" />

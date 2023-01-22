@@ -2,13 +2,15 @@
 
 #include "Common.hpp"
 
+#include "hl.h"
+
 namespace King {
 namespace Native {
-class KING_API Globals {
+
+class KING_API Object {
+    MAKEGET( hl_type *, t )
 
 public:
-    static bool ApplyHooks( );
-
 };
 
 }   // namespace Native

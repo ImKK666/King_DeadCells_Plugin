@@ -43,7 +43,7 @@ bool Commander::ApplyHooks( ) const {
         return false;
     }
 
-    VERIFY_HOOK( Globals )
+    //VERIFY_HOOK( Globals )
 
     return true;
 }

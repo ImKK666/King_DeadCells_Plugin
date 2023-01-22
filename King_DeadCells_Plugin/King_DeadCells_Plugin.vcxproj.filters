@@ -49,6 +49,12 @@
     <Filter Include="Addresses\1.22.2">
       <UniqueIdentifier>{89b7781d-b47c-4af6-8555-a73a9403b6a7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Structures\ObjectManager">
+      <UniqueIdentifier>{0091f0a7-8170-4323-af60-3ef3e9e91467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\Object">
+      <UniqueIdentifier>{5bc93337-ab41-407e-9d90-016a8c51595b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="King.cpp">
@@ -74,6 +80,12 @@
     </ClCompile>
     <ClCompile Include="Globals.cpp">
       <Filter>Structures\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Structures\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Structures\Object</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +130,15 @@
     </ClInclude>
     <ClInclude Include="Structures_1.22.2.hpp">
       <Filter>Addresses\1.22.2</Filter>
+    </ClInclude>
+    <ClInclude Include="hl.h">
+      <Filter>Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.hpp">
+      <Filter>Structures\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.hpp">
+      <Filter>Structures\Object</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
