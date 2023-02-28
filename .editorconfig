@@ -1,0 +1,26 @@
+
+[*]
+
+# ReSharper properties
+resharper_continuous_line_indent = double
+resharper_cpp_anonymous_method_declaration_braces = end_of_line
+resharper_cpp_case_block_braces = end_of_line
+resharper_cpp_invocable_declaration_braces = end_of_line
+resharper_cpp_max_line_length = 140
+resharper_cpp_other_braces = end_of_line
+resharper_cpp_type_declaration_braces = end_of_line
+resharper_cpp_wrap_ternary_expr_style = chop_always
+resharper_function_declaration_return_type_style = on_single_line
+resharper_function_definition_return_type_style = on_single_line
+resharper_line_break_after_colon_in_member_initializer_lists = on_single_line
+resharper_line_break_before_comma_in_member_initializer_lists = true
+resharper_line_break_before_requires_clause = on_single_line
+resharper_member_initializer_list_style = on_single_line
+resharper_namespace_declaration_braces = end_of_line
+resharper_requires_expression_braces = end_of_line
+resharper_simple_block_style = line_break
+resharper_simple_case_statement_style = line_break
+resharper_simple_embedded_statement_style = line_break
+resharper_toplevel_function_declaration_return_type_style = on_single_line
+resharper_toplevel_function_definition_return_type_style = on_single_line
+resharper_wrap_braced_init_list_style = chop_if_long

@@ -20,13 +20,6 @@ std::string Base64Decode( const std::vector< unsigned char > &data );
 
 std::string CreateGuid( );
 
-unsigned FNV_1a( const unsigned char *data, unsigned length );
-
-constexpr unsigned val_32_const = 0x4508063;
-inline constexpr unsigned FNV_1a( const char *const str, const unsigned value = val_32_const ) noexcept {
-    return ( str [ 0 ] == '\0' ) ? value : FNV_1a( &str [ 1 ], ( value ^ str [ 0 ] ) * 0x1000193 );
-}
-
 const char *UTF8ToGBK( const char *strUTF8 );
 char       *wstring_To_UTF8( const std::wstring &str );
 

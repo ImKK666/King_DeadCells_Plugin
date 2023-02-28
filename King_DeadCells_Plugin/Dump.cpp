@@ -17,14 +17,12 @@ void ReportFatalError( EXCEPTION_POINTERS *ex, ErrorCode code, const std::string
     ss << "Please COPY AND PASTE the contents of this message box (Ctrl + C when selected) instead of taking a screenshot.\n\n";
 
     const auto codeType = static_cast< unsigned >( code ) & 0xF0000000;
-    if( message != "" || codeType == AntiCheatError || codeType == GeneralError && ex ) {
+    if( message != "" || codeType == GeneralError && ex ) {
         ss << "Additional Information:\n";
         if( message != "" ) {
             ss << "------------message: " << message << "\n";
         }
-        if( codeType == AntiCheatError ) {
-            // Bypass AntiCheat Error ...
-        } else if( codeType == GeneralError && ex ) {
+        if( codeType == GeneralError && ex ) {
             std::stringstream sss;
 
             sss << "game  base: " << fmt::format( "{}", mModuleBase ) << "\n";

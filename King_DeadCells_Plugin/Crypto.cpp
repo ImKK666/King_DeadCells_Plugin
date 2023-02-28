@@ -72,14 +72,6 @@ std::string CreateGuid( ) {
     return std::string( guid_cstr );
 }
 
-unsigned FNV_1a( const unsigned char *data, unsigned length ) {
-    unsigned hash = 0x811c9dc5;
-    for( unsigned i = 0; i < length; i++ ) {
-        hash = 0x1000193 * ( hash ^ data [ i ] );
-    }
-    return hash;
-}
-
 const char *UTF8ToGBK( const char *strUTF8 ) {
     int    len    = MultiByteToWideChar( CP_UTF8, 0, strUTF8, -1, NULL, 0 );
     TCHAR *wszGBK = new TCHAR [ len + 1 ];
